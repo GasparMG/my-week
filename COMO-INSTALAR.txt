@@ -1,0 +1,23 @@
+MI SEMANA - app sin internet
+
+1) SUBIRLA A GITHUB PAGES (una sola vez, desde el computador)
+   - Entra a github.com > New repository > nombre: mi-semana > Public > Create.
+   - En el repo: "uploading an existing file" (o Add file > Upload files).
+   - Arrastra TODOS los archivos de esta carpeta (no la carpeta) > Commit changes.
+   - Settings > Pages > Source: "Deploy from a branch" > Branch: main / (root) > Save.
+   - Espera 1-2 minutos. Tu app queda en: https://TU-USUARIO.github.io/mi-semana/
+
+2) INSTALARLA EN EL CELULAR (con internet, una vez)
+   - Android (Chrome): abre el link > menú (3 puntos) > "Instalar app" o "Agregar a la pantalla principal".
+   - iPhone (tiene que ser Safari): abre el link > Compartir > "Agregar a inicio".
+   - Ábrela una vez desde el ícono. En la pestaña Datos debe decir "Lista para usar sin internet".
+   - Desde ahí funciona en modo avión.
+
+3) TUS DATOS
+   - Se guardan solo en el celular. En Datos > "Exportar respaldo" guardas un .json
+     (mándatelo al correo o a Drive). Con "Importar respaldo" lo recuperas en otro celu.
+   - No borres los datos de navegación de Safari/Chrome sin exportar antes.
+
+4) SI CAMBIAS ALGO DE LA APP
+   - Sube el archivo nuevo al repo y cambia VERSION en sw.js (v1 -> v2).
+   - En el celular, abre la app con internet dos veces para que tome la versión nueva.
