@@ -1,6 +1,6 @@
 // Service worker de "Mi semana": guarda la app en el celular para que abra sin internet.
 // Si cambias algún archivo, sube el número de VERSION para que el celular baje la versión nueva.
-const VERSION = "mi-semana-v1";
+const VERSION = "mi-semana-v3";
 const FILES = [
   "./",
   "./index.html",
